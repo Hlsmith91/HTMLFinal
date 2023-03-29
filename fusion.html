@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link  href="styles/main.css" rel="stylesheet"/>
+		<link  href="styles/normalize_fusion.css" rel="stylesheet"/>
+		<link href="images/favicon.ico" rel="Icon"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <title>Summoner's War: Sky Arena</title>        
+    </head>
+    <body>
+        <header>
+        </header>
+		<aside class="Left">
+		<ul id="Nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="attributes.html">Attributes</a></li>
+		<li><a href="scenarios.html">Scenarios</a></li>
+		<li><a href="runes.html">Runes</a></li>
+		<li><a href="dungeons.html">Dungeons</a></li>
+		<li><a href="fusion.html">Fusion</a></li>
+		</ul>
+		</aside>
+		<div class="Wrapper">
+       <h1>Monster Fusion</h1>
+		<img  id="hexagram" src="images/hexagram.png" alt="hexagram"/>
+		<p>Fusion Hexagram is a special type of Summoning Circle which allows players to summon 4-star and 5-star monsters by fusing or sacrificing monsters of lower grades. Fusing a 4-star monster requires sacrificing three natural 3-star monsters and one natural 2-star monster which all have been evolved into 4-stars, awakened and leveled to maximum level (30). Fusing a 5-star monster requires sacrificing three natural 4-star monsters and one natural 3-star monster which all need to be evolved to 5-star, awakened and leveled to maximum level (35). 
+		The three natural 4-star monsters are all available from the Hexagram itself. Mana Stones are required for any fusion.</p>
+		<p>Not all monsters are available for summoning in this way. Players are required to follow a set of "Recipes" for summoning certain monsters, and which also dictate which monsters are required as ingredients for fusion. The monsters required for fusion can usually be found either in Scenario areas or Secret Dungeons, although some require summoning through either Mystical Scrolls, Unknown Scrolls or Summoning Pieces from the Guild Shop.
+		<p>It should be noted that locked monsters can't be used as material monsters. And because material monsters are lost after fusion, any runes attached will also be lost.</p>
+		<p>The Fusion Hexagram is available in all countries, although the system has been altered in Japan.</p>
+		<p>Below are the mons you can only get from fusion</p>
+		<div class="slider">
+			<div><img src="images/slide/DarkIfrit.png" alt="DarkIfrit"/></div>
+			<div><img src="images/slide/FireEmperor.jpg" alt="Emperor"/></div>
+			<div><img src="images/slide/LightPaladin.jpg" alt="Paladin"/></div>
+			<div><img src="images/slide/WindValk.png" alt="Valk"/></div>
+			<div><img src="images/slide/WaterPhoenix.jpg" alt="Phoenix"/></div>
+			<div><img src="images/slide/FirePanda.png" alt="Panda"/></div>
+			<div><img src="images/slide/SmallChart.jpg" alt="Chart"/></div>
+		</div>
+	   </div>
+    </body>
+	 <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+	</script>
+</html>

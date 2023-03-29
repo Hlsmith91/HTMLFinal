@@ -1,0 +1,34 @@
+#Trailer{
+display: block;
+margin: auto;
+width: 560px;
+height: 315px;
+}
+figcaption{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+	div.Wrapper{
+		margin-right:0;
+	}
+	 #Trailer{
+	width: 100%;
+}
+}
+@media only screen and (max-width: 676px){
+	iframe{
+		display: none;
+	}
+}
+@media only screen and (max-width: 480px){
+	h1{
+	font-size: 35px;
+	}
+	iframe{
+		display: none;
+	}
+}

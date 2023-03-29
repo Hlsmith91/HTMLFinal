@@ -1,0 +1,39 @@
+#hexagram{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slider img
+{
+ display:block;
+ margin: auto;
+}
+/*Mobile screens*/
+
+@media only screen and (max-width: 480px){
+
+	img#hexagram{
+		display: none;
+}
+	div.bx-wrapper{
+		display:none;
+	}
+	
+}
+@media only screen and (max-width: 676px){
+
+	img#hexagram{
+		display: none;
+}
+	div.bx-wrapper{
+		display:none;
+	}
+	
+}
+@media only screen and (max-width: 800px){
+
+	div.bx-wrapper{
+		margin-left:70px;
+		width:60%;
+	}
+}

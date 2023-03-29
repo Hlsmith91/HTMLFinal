@@ -1,0 +1,38 @@
+#Map{
+	display: block;
+	margin: auto;
+	width:100%;
+}
+
+.Table, td, th{
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+.checked{
+	color: orange;
+}
+
+.center{
+	text-align: center;
+}
+/*Mobile Screen*/
+@media only screen and (max-width: 480px){
+	#Map{
+		display:none;
+	}
+}
+@media only screen and (max-width: 676px){
+	div.Wrapper{
+		margin-right:auto;
+		margin-left: 150px;
+	}
+	
+	aside.Left{
+		margin-right:10px;
+	}
+	
+	#Map{
+		width:100%;
+	}
+}

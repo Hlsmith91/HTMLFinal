@@ -1,0 +1,18 @@
+
+.Attributes{
+	width: 830px;
+	
+}
+
+.mons{
+	border-radius: 50%;
+}
+
+h3{
+	text-align: center;
+}
+.thumb{
+	display:block;
+	padding-left: 200px;
+	padding-right: 150px;
+}

@@ -1,0 +1,80 @@
+body{
+	background-image: url("../images/SummonersWar_Background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	/* background-color:#c68c53;*/
+}
+h1{
+	margin-top: auto;
+	font-size:50px;
+}
+
+
+div.Wrapper{
+	background-color:#996633;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+
+aside.Left{
+	float:left;
+	margin-right:100px;
+	display:block;
+}
+#Nav ul  {
+    margin-right: 200px;
+    width: 250px;
+    background-color: #f1f1f1;
+}
+
+#Nav li {
+	list-style-type: none;
+}	
+
+#Nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#Nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/*Tablet Screen*/
+@media only screen and (max-width: 800px){
+	div.Wrapper{
+		margin-right:100px;
+	}
+
+}
+
+/*Mobile screen*/
+@media only screen and (max-width: 480px){
+		aside.Left{
+		width:100%;
+	}
+	ul#Nav{
+		margin: 0;
+		
+	}
+	ul#Nav li a{
+		display: block;
+		background-color: #654321;
+		color: white;
+		width: 92%;
+	}
+	div.Wrapper{
+		margin:0;
+	}
+	
+	img, #Map{
+		display: none;
+	}
+}
